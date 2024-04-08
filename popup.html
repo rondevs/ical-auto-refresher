@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>iCal Connection Refresher</title>
+		<link rel="stylesheet" href="content.css" />
+	</head>
+	<body class="ical-refresher">
+		<div class="ical-refresher-container">
+			<h2 class="title">iCal Connection Refresher</h2>
+			<p class="subtitle">
+				Click the button to Refresh all the ical connections.
+			</p>
+			<div class="action-container">
+				<div class="input-container">
+					<label for="intervalInput">Interval (in minutes):</label>
+					<input type="number" id="intervalInput" min="1" step="1" value="1" />
+				</div>
+				<div class="btn-group">
+					<button class="btn start" type="button" id="automateButton">
+						Automate
+					</button>
+					<button class="btn stop" id="stopButton" style="display: none">
+						Stop
+					</button>
+				</div>
+			</div>
+		</div>
+		<script src="popup.js"></script>
+	</body>
+</html>

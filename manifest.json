@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "iCal auto refresher",
+	"version": "1.0",
+	"description": "Automatically refreshes the ical connections of Booking.com",
+	"author": "Rownok Bosunia",
+	"homepage_url": "https://github.com/rondevs/ical-auto-refresher",
+	"permissions": ["tabs", "activeTab", "storage"],
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "icon.png",
+			"48": "icon.png",
+			"128": "icon.png"
+		}
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"css": ["content.css"],
+			"js": ["content.js"]
+		}
+	]
+}

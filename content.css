@@ -1,0 +1,68 @@
+.ical-refresher {
+	width: 300px;
+	min-height: 200px;
+	padding: 0px;
+	margin: 0;
+	box-sizing: border-box;
+	border: 0;
+	background-color: snow;
+}
+.ical-refresher-container {
+	padding: 15px;
+}
+.title {
+	color: #eb2427;
+	font-size: 1.2rem;
+	line-height: 1rem;
+}
+.subtitle {
+	color: #212121;
+	font-size: 1rem;
+}
+.input-container {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	float: left;
+	min-width: 60%;
+}
+#intervalInput {
+	width: 45px;
+	height: 30px;
+	line-height: 1.65;
+	display: block;
+	padding: 0;
+	margin: 0;
+	padding-left: 20px;
+	border: 1px solid #eee;
+}
+
+#intervalInput:focus {
+	outline: 0;
+}
+
+.action-container {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.btn-group {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.btn {
+	border-radius: 35px 35px 35px 35px;
+	padding: 9px 9px 9px 9px;
+	color: #ffff;
+	border: none;
+	cursor: pointer;
+}
+
+.btn.start {
+	background-color: #00d062;
+}
+
+.btn.stop {
+	background-color: #eb2427;
+}
