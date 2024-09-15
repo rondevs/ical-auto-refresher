@@ -30,6 +30,7 @@ A lightweight Chrome extension that automatically refreshes iCal connections at 
 
 1. **Set Refresh Interval:**
 
+    - Go to the `Sync Calendar` page where the ical connections are in your booking.com account.
     - Click the extension icon in your Chrome toolbar.
     - Enter the desired refresh interval in minutes (e.g., every 5 minutes).
     - The extension will refresh iCal connections for Booking.com automatically at the chosen interval.
