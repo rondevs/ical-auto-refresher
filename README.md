@@ -1,6 +1,3 @@
-Here’s the README content formatted in Markdown:
-
-````markdown
 # iCal Connection Auto Refresher for Booking.com
 
 A lightweight Chrome extension that automatically refreshes iCal connections at specified intervals to ensure your Booking.com calendar is always in sync with external booking platforms.
@@ -15,10 +12,10 @@ A lightweight Chrome extension that automatically refreshes iCal connections at 
 ## Installation
 
 1. **Clone the repository:**
+
     ```bash
     git clone https://github.com/yourusername/ical-connection-auto-refresher.git
     ```
-````
 
 2. **Load the extension in Chrome:**
 
