@@ -11,11 +11,10 @@ A lightweight Chrome extension that automatically refreshes iCal connections at 
 
 ## Installation
 
-1. **Clone the repository:**
+1. **Download the extension:**
 
-    ```bash
-    git clone https://github.com/yourusername/ical-connection-auto-refresher.git
-    ```
+    - Go to the [Releases](https://github.com/rondevs/ical-auto-refresher/releases) page of this repository.
+    - Download the latest release zip file.
 
 2. **Load the extension in Chrome:**
 
